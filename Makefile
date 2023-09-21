@@ -98,6 +98,10 @@ endif
 
 export quiet Q KBUILD_VERBOSE
 
+#Link-Time Optimisation
+KBUILD_CFLAGS += -flto
+KBUILD_CFLAGS_MODULE += -flto
+
 # kbuild supports saving output files in a separate directory.
 # To locate output files in a separate directory two syntaxes are supported.
 # In both cases the working directory must be the root of the kernel src.
