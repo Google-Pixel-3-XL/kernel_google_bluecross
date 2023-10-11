@@ -747,3 +747,6 @@ CONFIG_DEFAULT_TCP_CONG="westwood"
 
 # Wakelock
 CONFIG_BOEFFLA_WL_BLOCKER=y
+
+# Enable Power Efficient Workingqueues
+CONFIG_WQ_POWER_EFFICIENT_DEFAULT=y
